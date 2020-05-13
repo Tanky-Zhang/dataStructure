@@ -9,11 +9,26 @@ public class TreeNode implements Comparable {
 
     int value;
 
+    public Byte getData() {
+        return data;
+    }
+
+    public void setData(Byte data) {
+        this.data = data;
+    }
+
+    Byte data;
+
     TreeNode left;
 
     TreeNode right;
 
     public TreeNode(int value) {
+        this.value = value;
+    }
+
+    public TreeNode(byte data, int value) {
+        this.data = data;
         this.value = value;
     }
 
@@ -43,7 +58,7 @@ public class TreeNode implements Comparable {
 
     @Override
     public int compareTo(Object o) {
-        return this.value-((TreeNode)o).value;
+        return this.value - ((TreeNode) o).value;
     }
 
     @Override
