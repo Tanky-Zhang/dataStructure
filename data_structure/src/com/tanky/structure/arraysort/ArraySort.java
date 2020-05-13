@@ -1,12 +1,15 @@
 package com.tanky.structure.arraysort;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 import java.util.Queue;
 import java.util.concurrent.LinkedBlockingDeque;
 
 /**
  * 创建人： 19697
  * 创建时间： 2020/1/8
- * 作用：八种排序算法实现
+ * 作用：十种排序算法实现
  * 修改信息：
  */
 public class ArraySort {
@@ -40,30 +43,73 @@ public class ArraySort {
             //此时不是最小值进行交换
             if (minINdex != i) {
                 temp = arr[minINdex];
-
                 arr[minINdex] = arr[i];
-
                 arr[i] = temp;
-
             }
 
-
         }
-
 
     }
 
     //******************************************************堆排序*****************************************************************************
+
     /**
      * 堆排序代码实现
      */
-    public  static  void  heapSort(int[] arr){
+    public static void heapSort(int[] arr) {
 
+        //计算开始位置，从最后一层叶子节点的父节点开始遍历
+        int start = (arr.length - 2) / 2;
 
+        heapMax(arr, arr.length, start);
 
+        for (int i = arr.length - 1; i >= 0; i++) {
 
+            int temp = arr[i];
+            arr[i] = arr[0];
+            arr[0] = arr[temp];
 
+            heapMax(arr, i, 0);
 
+        }
+
+    }
+
+    /**
+     * 找出大顶堆
+     */
+    public static void heapMax(int[] arr, int size, int index) {
+
+        if (index < size) {
+
+            //找出左子树和右子树的位置坐标
+            int leftNode = 2 * index + 1;
+            int rightNode = 2 * index + 2;
+
+            //一开始默认当前节点为最大值
+            int max = index;
+
+            if (leftNode < size && arr[max] < arr[leftNode]) {
+                max = leftNode;
+            }
+            if (rightNode < size && arr[max] < arr[rightNode]) {
+                max = rightNode;
+            }
+
+            if (max != index) {
+
+                int temp = arr[max];
+
+                arr[max] = arr[index];
+
+                arr[index] = temp;
+
+                //这次交换可能导致了其子树的结构变化所以需要重新进行排序
+                heapMax(arr, size, max);
+
+            }
+
+        }
 
 
     }
@@ -75,7 +121,7 @@ public class ArraySort {
      * 基数排序适合于数据位数不一样的数据进行排序
      */
 
-    public static void baseSortByQueu(int[] arr) {
+    public static void baseSortByQueue(int[] arr) {
 
         int maxData = arr[0];
         for (int i = 1; i < arr.length; i++) {
@@ -207,12 +253,9 @@ public class ArraySort {
 
                     }
 
-
                 }
 
                 arr[j + 1] = temp;
-
-
             }
 
         }
@@ -282,13 +325,10 @@ public class ArraySort {
             arr[high] = arr[low];
 
             //把标准数据赋值给低（高）所在的位置，需要注意的是此时高位和低位已经重合了
-
             arr[low] = stander;
 
             //左边的数据和右边的数据分别进行递归调用
-
             quickSort(arr, start, low);
-
             quickSort(arr, low + 1, high);
 
         }
@@ -296,6 +336,189 @@ public class ArraySort {
 
     }
 
+    //****************************************************归并排序**************************************************
 
+
+    /**
+     * 归并排序
+     *
+     * @param start
+     * @param end
+     * @param old
+     */
+    public static void merge(int start, int end, int[] old, int[] temp) {
+
+        if (start < end) {
+            int midle = (end + start) / 2;
+            merge(start, midle, old, temp);
+            merge(midle + 1, end, old, temp);
+            merageSort(start, end, midle, old, temp);
+        }
+    }
+
+
+    public static void merageSort(int start, int end, int midle, int[] old, int[] temp) {
+
+        int p1 = start;
+        int p2 = end;
+        int p3 = midle + 1;
+        int index = 0;
+
+        while (p1 < midle && p3 < p2) {
+
+            if (old[p1] < old[p3]) {
+                temp[index] = old[p1];
+                p1++;
+            } else {
+                temp[index] = old[p3];
+                p3++;
+            }
+            index++;
+        }
+
+        if (p1 < midle) {
+            for (int i = p1; i < midle; i++) {
+                temp[index] = old[p1];
+                index++;
+            }
+        }
+
+        if (p2 < p3) {
+            for (int i = p2; i < p3; i++) {
+                temp[index] = old[p2];
+                index++;
+            }
+        }
+        for (int j = 0; j < temp.length; j++) {
+            old[start + j] = temp[j];
+        }
+
+    }
+
+    //**********************************************冒泡排序*************************************************
+
+    /**
+     * 冒泡排序
+     *
+     * @param array
+     */
+    private static void bubbleSort(int[] array) {
+
+        int temp;
+
+        for (int i = 0; i < array.length; i++) {
+
+            for (int j = i + 1; j < array.length; j++) {
+
+                if (array[i] > array[j]) {
+
+                    temp = array[j];
+
+                    array[j] = array[i];
+
+                    array[i] = temp;
+
+                }
+
+            }
+
+        }
+
+    }
+    //*****************************************桶排序*************************************************
+
+    /**
+     * 桶排序的代码实现过程
+     *
+     * @param arr
+     */
+    public static void bucketSort(int[] arr) {
+
+        //找出数组中的最大元素和最小元素
+        int min = arr[0];
+        int max = arr[0];
+        for (int i = 0; i < arr.length; i++) {
+            max = Math.max(max, arr[i]);
+            min = Math.min(min, arr[i]);
+        }
+
+        //计算桶的个数
+        int length = (max - min) / arr.length + 1;
+
+        //为了计算简单此处不再使用二维数组，直接采用list嵌套list的形式来进行存储
+
+        List<ArrayList<Integer>> arrayLists = new ArrayList<>(length);
+
+        //开始构建length个桶
+        for (int j = 0; j < length; j++) {
+            arrayLists.add(new ArrayList<>());
+        }
+
+        // 将每个元素放入桶
+        for (int i = 0; i < arr.length; i++) {
+            int num = (arr[i] - min) / (arr.length);
+            arrayLists.get(num).add(arr[i]);
+        }
+
+        // 对每个桶进行排序
+        for (int i = 0; i < arrayLists.size(); i++) {
+            Collections.sort(arrayLists.get(i));
+        }
+
+        // 将桶中的元素赋值到原序列
+        int index = 0;
+        for (int i = 0; i < arrayLists.size(); i++) {
+            for (int j = 0; j < arrayLists.get(i).size(); j++) {
+                arr[index++] = arrayLists.get(i).get(j);
+            }
+        }
+
+    }
+
+    //******************************************计数排序**********************************************
+
+    /**
+     * 计数排序的实现过程
+     *
+     * @param arr
+     */
+    public static void countSort(int[] arr) {
+
+        //找出数组中的最大元素和最小元素
+        int min = arr[0];
+        int max = arr[0];
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] < min) {
+                min = arr[i];
+            }
+            if (arr[i] > max) {
+                max = arr[i];
+            }
+        }
+
+        //得出对应的数组的长度
+        int d = max - min;
+        //创建统计数组  并计算统计对应元素个数
+        int[] countArray = new int[d + 1];
+        for (int j = 0; j < arr.length; j++) {
+            countArray[arr[j] - min]++;
+        }
+
+        //对统计数组进行变形 后边的元素等于前边的元素之和
+        int sum = 0;
+        for (int m = 0; m < countArray.length; m++) {
+            sum += countArray[m];
+            countArray[m] = sum;
+        }
+
+        //对原始数组倒序
+        int[] sortArray = new int[arr.length];
+        for (int i = arr.length - 1; i >= 0; i--) {
+            sortArray[countArray[arr[i] - min] + 1] = arr[i];
+            countArray[arr[i] - min]--;
+        }
+
+        System.arraycopy(sortArray, 0, arr, 0, sortArray.length);
+    }
 
 }
