@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/com/atguigu/avl/AVLTreeDemo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/atguigu/binarysorttree/BinarySortTreeDemo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/atguigu/graph/Graph.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/atguigu/hashtab/HashTabDemo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/atguigu/huffmancode/HuffmanCode.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/atguigu/huffmantree/HuffmanTree.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/atguigu/linkedlist/DoubleLinkedListDemo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/atguigu/queue/ArrayQueueDemo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/atguigu/recursion/MiGong.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/atguigu/reversepolishcal/ReversePolishMultiCalc.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/atguigu/search/BinarySearch.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/atguigu/sort/BubbleSort.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/atguigu/sparsearray/SparseArray.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/atguigu/stack/ArrayStackDemo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/atguigu/tree/ArrBinaryTreeDemo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/atguigu/tree/threadedbinarytree/ThreadedBinaryTreeDemo.java" charset="GBK" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
