@@ -72,9 +72,6 @@ public class Test1 {
                 .boxed().mapToLong(weight -> (long) (weight * 100)).mapToObj(p -> p + "%").collect(Collectors.toList());
 
 
-
-
-
     }
 
     static class Date {
