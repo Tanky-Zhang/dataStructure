@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8a7e2b5-2d80-48ca-9e6c-034c1a5a0350" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/tanky/algorithm/dynamicprogramming/PackageProblem01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tanky/algorithm/dynamicprogramming/PackageProblemComplete.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tanky/algorithm/dijkstra/Dijkstra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tanky/algorithm/dijkstra/Dijkstra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_structure/com/atguigu/floyd/FloydAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/com/atguigu/floyd/FloydAlgorithm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_structure/com/atguigu/floyd/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/com/atguigu/floyd/Graph.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +34,35 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/tanky/algorithm/dynamicprogramming/PackageProblemComplete.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="518">
+              <caret line="51" column="5" selection-start-line="9" selection-start-column="43" selection-end-line="51" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tanky/algorithm/dynamicprogramming/PackageProblem01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="702">
+              <caret line="70" column="17" lean-forward="true" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/atguigu/dynamic/KnapsackProblem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="74" column="33" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -107,10 +138,14 @@
         <option value="$PROJECT_DIR$/src/com/atguigu/dijkstra/DijkstraAlgorithm.java" />
         <option value="$PROJECT_DIR$/src/com/tanky/algorithm/floyd/FloydAlgorithm.java" />
         <option value="$PROJECT_DIR$/src/com/atguigu/floyd/FloydAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/com/tanky/algorithm/prim/Prim.java" />
+        <option value="$PROJECT_DIR$/src/com/tanky/algorithm/dynamicprogramming/PackageProblem.java" />
+        <option value="$PROJECT_DIR$/src/com/tanky/algorithm/dynamicprogramming/PackageProblem01.java" />
+        <option value="$PROJECT_DIR$/src/com/tanky/algorithm/dynamicprogramming/PackageProblemComplete.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1386" />
@@ -124,6 +159,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -131,25 +168,134 @@
               <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
               <item name="data_structure" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="floyd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="floyd" type="462c0819:PsiDirectoryNode" />
+              <item name="FloydAlgorithm.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="graph" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="recursion" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tanky" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tanky" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tanky" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="dijkstra" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tanky" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamicprogramming" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tanky" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="prim" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/atguigu" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/atguigu/dynamic" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Data\programcode\dataStructure\data_structure\src\com\atguigu\dynamic" />
       <recent name="E:\dataStructure\data_structure\src\com\atguigu" />
       <recent name="E:\dataStructure\data_structure\src\com" />
     </key>
@@ -166,20 +312,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FloydAlgorithm (1)">
-    <configuration name="Dijkstra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tanky.algorithm.dijkstra.Dijkstra" />
-      <module name="data_structure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tanky.algorithm.dijkstra.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PackageProblemComplete">
     <configuration name="DijkstraAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.atguigu.dijkstra.DijkstraAlgorithm" />
       <module name="data_structure" />
@@ -219,12 +352,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HorseRidingChessBoard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tanky.algorithm.horseridingchessboard.HorseRidingChessBoard" />
+    <configuration name="PackageProblem01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tanky.algorithm.dynamicprogramming.PackageProblem01" />
       <module name="data_structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tanky.algorithm.horseridingchessboard.*" />
+          <option name="PATTERN" value="com.tanky.algorithm.dynamicprogramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PackageProblemComplete" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tanky.algorithm.dynamicprogramming.PackageProblemComplete" />
+      <module name="data_structure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tanky.algorithm.dynamicprogramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -233,19 +379,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.HorseRidingChessBoard" />
-      <item itemvalue="Application.Dijkstra" />
       <item itemvalue="Application.DijkstraAlgorithm" />
       <item itemvalue="Application.FloydAlgorithm" />
       <item itemvalue="Application.FloydAlgorithm (1)" />
+      <item itemvalue="Application.PackageProblem01" />
+      <item itemvalue="Application.PackageProblemComplete" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PackageProblemComplete" />
+        <item itemvalue="Application.PackageProblem01" />
         <item itemvalue="Application.FloydAlgorithm (1)" />
         <item itemvalue="Application.FloydAlgorithm" />
         <item itemvalue="Application.DijkstraAlgorithm" />
-        <item itemvalue="Application.Dijkstra" />
-        <item itemvalue="Application.HorseRidingChessBoard" />
       </list>
     </recent_temporary>
   </component>
@@ -269,16 +415,18 @@
       <workItem from="1587000339173" duration="8516000" />
       <workItem from="1588898248641" duration="6761000" />
       <workItem from="1589329369960" duration="59175000" />
+      <workItem from="1589899803754" duration="1040000" />
+      <workItem from="1589978715332" duration="10229000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156564000" />
+    <option name="totallyTimeSpent" value="167833000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" x="523" y="72" width="320" height="584" id="Project" order="0" visible="true" weight="0.25189108" />
+      <window_info content_ui="combo" x="523" y="72" width="320" height="584" id="Project" order="0" visible="true" weight="0.2274678" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -288,7 +436,7 @@
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.051635113" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.04413473" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.26678142" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -399,40 +547,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/java-8/src.zip!/java/lang/Class.java" />
-    <entry file="jar://D:/java-8/src.zip!/java/util/function/Function.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/tanky/structure/concurrent/Family.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-          <folding>
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java-8/src.zip!/java/util/concurrent/CyclicBarrier.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/tanky/structure/concurrent/TestCownLatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-          <folding>
-            <element signature="e#278#446#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-            <element signature="e#465#637#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-            <element signature="e#657#829#0" expanded="true" />
-            <element signature="e#828#829#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tanky/structure/concurrent/TestCyclicBarrier2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-217">
@@ -460,13 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/graph/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -498,13 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/recursion/MiGong.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/atguigu/reversepolishcal/ReversePolishMultiCalc.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -516,13 +616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/search/BinarySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -691,13 +784,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/com/atguigu/binarysearchnorecursion/BinarySearchNoRecur.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -739,20 +826,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tanky/algorithm/floyd/FloydAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="37" column="9" lean-forward="true" selection-start-line="35" selection-start-column="6" selection-end-line="37" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/floyd/FloydAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tanky/algorithm/floyd/FloydAlgorithm.java" />
     <entry file="file://$PROJECT_DIR$/src/com/tanky/structure/concurrent/TestCyclicBarrier.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -764,6 +838,65 @@
             <element signature="e#1293#1686#0" expanded="true" />
             <element signature="e#1685#1686#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structure.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tanky/algorithm/prim/Prim.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/floyd/FloydAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/graph/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/search/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/recursion/MiGong.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/dynamic/KnapsackProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="74" column="33" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tanky/algorithm/dynamicprogramming/PackageProblem01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="70" column="17" lean-forward="true" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tanky/algorithm/dynamicprogramming/PackageProblemComplete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="51" column="5" selection-start-line="9" selection-start-column="43" selection-end-line="51" selection-end-column="5" />
         </state>
       </provider>
     </entry>

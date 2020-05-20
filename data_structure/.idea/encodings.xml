@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="GBK">
     <file url="file://$PROJECT_DIR$/src/com/atguigu/avl/AVLTreeDemo.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/atguigu/binarysearchnorecursion/BinarySearchNoRecur.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/atguigu/binarysorttree/BinarySortTreeDemo.java" charset="GBK" />
@@ -20,6 +20,7 @@
     <file url="file://$PROJECT_DIR$/src/com/atguigu/stack/ArrayStackDemo.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/atguigu/tree/ArrBinaryTreeDemo.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/atguigu/tree/threadedbinarytree/ThreadedBinaryTreeDemo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/tanky/algorithm/dynamicprogramming/PackageProblemComplete.java" charset="GBK" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
