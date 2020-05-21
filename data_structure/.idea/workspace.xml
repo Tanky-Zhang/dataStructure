@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8a7e2b5-2d80-48ca-9e6c-034c1a5a0350" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/tanky/algorithm/dynamicprogramming/PackageProblem01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tanky/algorithm/dynamicprogramming/PackageProblemComplete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tanky/algorithm/binarysearch/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tanky/algorithm/divideandconquer/Divide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tanky/algorithm/greedy/Greedy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tanky/algorithm/kmp/Kmp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tanky/algorithm/kmp/ViolenceMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tanky/algorithm/kruskal/Kruskal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/com/atguigu/floyd/FloydAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/com/atguigu/floyd/FloydAlgorithm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/com/atguigu/floyd/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/com/atguigu/floyd/Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_structure/com/atguigu/prim/MGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/com/atguigu/prim/MGraph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_structure/com/atguigu/prim/MinTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/com/atguigu/prim/MinTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_structure/com/tanky/algorithm/prim/Prim.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/com/tanky/algorithm/prim/Prim.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/prim/PrimAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/prim/PrimAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tanky/algorithm/prim/Prim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tanky/algorithm/prim/Prim.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,29 +42,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tanky/algorithm/kmp/Kmp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tanky/algorithm/kmp/ViolenceMatch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/tanky/algorithm/dynamicprogramming/PackageProblemComplete.java">
+        <entry file="file://$PROJECT_DIR$/src/com/tanky/algorithm/greedy/Greedy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="51" column="5" selection-start-line="9" selection-start-column="43" selection-end-line="51" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tanky/algorithm/dynamicprogramming/PackageProblem01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="70" column="17" lean-forward="true" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/atguigu/dynamic/KnapsackProblem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="74" column="33" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
+            <state relative-caret-position="378">
+              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,6 +97,8 @@
       <find>add</find>
       <find>next</find>
       <find>already_arr</find>
+      <find>MGraph</find>
+      <find>ends</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -138,10 +150,17 @@
         <option value="$PROJECT_DIR$/src/com/atguigu/dijkstra/DijkstraAlgorithm.java" />
         <option value="$PROJECT_DIR$/src/com/tanky/algorithm/floyd/FloydAlgorithm.java" />
         <option value="$PROJECT_DIR$/src/com/atguigu/floyd/FloydAlgorithm.java" />
-        <option value="$PROJECT_DIR$/src/com/tanky/algorithm/prim/Prim.java" />
         <option value="$PROJECT_DIR$/src/com/tanky/algorithm/dynamicprogramming/PackageProblem.java" />
         <option value="$PROJECT_DIR$/src/com/tanky/algorithm/dynamicprogramming/PackageProblem01.java" />
         <option value="$PROJECT_DIR$/src/com/tanky/algorithm/dynamicprogramming/PackageProblemComplete.java" />
+        <option value="$PROJECT_DIR$/src/com/tanky/algorithm/kmp/Kmp.java" />
+        <option value="$PROJECT_DIR$/src/com/tanky/algorithm/binarysearch/BinarySearch.java" />
+        <option value="$PROJECT_DIR$/src/com/atguigu/prim/PrimAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/com/tanky/algorithm/prim/Prim.java" />
+        <option value="$PROJECT_DIR$/src/com/tanky/algorithm/kruskal/Kruskal.java" />
+        <option value="$PROJECT_DIR$/src/com/tanky/algorithm/greedy/Greedy.java" />
+        <option value="$PROJECT_DIR$/src/com/tanky/algorithm/divideandconquer/Divide.java" />
+        <option value="$PROJECT_DIR$/src/com/tanky/algorithm/kmp/ViolenceMatch.java" />
       </list>
     </option>
   </component>
@@ -159,8 +178,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -192,48 +211,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="atguigu" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
-              <item name="floyd" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
-              <item name="floyd" type="462c0819:PsiDirectoryNode" />
-              <item name="FloydAlgorithm.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
-              <item name="graph" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
-              <item name="recursion" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
+              <item name="greedy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
@@ -257,7 +235,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="tanky" type="462c0819:PsiDirectoryNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="dijkstra" type="462c0819:PsiDirectoryNode" />
+              <item name="greedy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
@@ -266,16 +244,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="tanky" type="462c0819:PsiDirectoryNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamicprogramming" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="tanky" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="prim" type="462c0819:PsiDirectoryNode" />
+              <item name="kmp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -312,13 +281,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PackageProblemComplete">
-    <configuration name="DijkstraAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.dijkstra.DijkstraAlgorithm" />
+  <component name="RunManager" selected="Application.ViolenceMatch">
+    <configuration name="Greedy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tanky.algorithm.greedy.Greedy" />
       <module name="data_structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.dijkstra.*" />
+          <option name="PATTERN" value="com.tanky.algorithm.greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -326,12 +295,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FloydAlgorithm (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.floyd.FloydAlgorithm" />
+    <configuration name="Kruskal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tanky.algorithm.kruskal.Kruskal" />
       <module name="data_structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.floyd.*" />
+          <option name="PATTERN" value="com.tanky.algorithm.kruskal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -339,12 +308,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FloydAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tanky.algorithm.floyd.FloydAlgorithm" />
+    <configuration name="KruskalCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.kruskal.KruskalCase" />
       <module name="data_structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tanky.algorithm.floyd.*" />
+          <option name="PATTERN" value="com.atguigu.kruskal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -352,12 +321,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PackageProblem01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tanky.algorithm.dynamicprogramming.PackageProblem01" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.Test" />
       <module name="data_structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tanky.algorithm.dynamicprogramming.*" />
+          <option name="PATTERN" value="com.atguigu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -365,12 +334,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PackageProblemComplete" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tanky.algorithm.dynamicprogramming.PackageProblemComplete" />
+    <configuration name="ViolenceMatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tanky.algorithm.kmp.ViolenceMatch" />
       <module name="data_structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tanky.algorithm.dynamicprogramming.*" />
+          <option name="PATTERN" value="com.tanky.algorithm.kmp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -379,19 +348,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DijkstraAlgorithm" />
-      <item itemvalue="Application.FloydAlgorithm" />
-      <item itemvalue="Application.FloydAlgorithm (1)" />
-      <item itemvalue="Application.PackageProblem01" />
-      <item itemvalue="Application.PackageProblemComplete" />
+      <item itemvalue="Application.Kruskal" />
+      <item itemvalue="Application.KruskalCase" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Greedy" />
+      <item itemvalue="Application.ViolenceMatch" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PackageProblemComplete" />
-        <item itemvalue="Application.PackageProblem01" />
-        <item itemvalue="Application.FloydAlgorithm (1)" />
-        <item itemvalue="Application.FloydAlgorithm" />
-        <item itemvalue="Application.DijkstraAlgorithm" />
+        <item itemvalue="Application.ViolenceMatch" />
+        <item itemvalue="Application.Greedy" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Kruskal" />
+        <item itemvalue="Application.KruskalCase" />
       </list>
     </recent_temporary>
   </component>
@@ -417,16 +386,17 @@
       <workItem from="1589329369960" duration="59175000" />
       <workItem from="1589899803754" duration="1040000" />
       <workItem from="1589978715332" duration="10229000" />
+      <workItem from="1590067773931" duration="13921000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167833000" />
+    <option name="totallyTimeSpent" value="181754000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" x="523" y="72" width="320" height="584" id="Project" order="0" visible="true" weight="0.2274678" />
+      <window_info active="true" content_ui="combo" x="523" y="72" width="320" height="584" id="Project" order="0" visible="true" weight="0.2306867" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -437,7 +407,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.04413473" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.26678142" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.7049942" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -547,64 +517,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/tanky/structure/concurrent/TestCyclicBarrier2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-217">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tanky/structure/concurrent/TestSemaphore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java-8/jre/lib/rt.jar!/sun/misc/Unsafe.class" />
-    <entry file="jar://D:/java-8/src.zip!/java/util/concurrent/ConcurrentHashMap.java" />
-    <entry file="jar://D:/java-8/src.zip!/java/util/ArrayList.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/tanky/structure/huffman/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/hashtab/HashTabDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="103" column="6" selection-start-line="103" selection-start-column="6" selection-end-line="103" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/huffmantree/HuffmanTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/linkedlist/DoubleLinkedListDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/queue/ArrayQueueDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="64" column="37" lean-forward="true" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/atguigu/reversepolishcal/ReversePolishMultiCalc.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -784,7 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/com/atguigu/binarysearchnorecursion/BinarySearchNoRecur.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -844,13 +755,6 @@
     <entry file="file://$PROJECT_DIR$/data_structure.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tanky/algorithm/prim/Prim.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/atguigu/floyd/FloydAlgorithm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -879,24 +783,117 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/dynamic/KnapsackProblem.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tanky/algorithm/dynamicprogramming/PackageProblemComplete.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
-          <caret line="74" column="33" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tanky/algorithm/dynamicprogramming/PackageProblem01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="70" column="17" lean-forward="true" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
+        <state relative-caret-position="1890">
+          <caret line="70" column="17" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tanky/algorithm/dynamicprogramming/PackageProblemComplete.java">
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/dynamic/KnapsackProblem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="51" column="5" selection-start-line="9" selection-start-column="43" selection-end-line="51" selection-end-column="5" />
+        <state relative-caret-position="1998">
+          <caret line="74" column="33" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tanky/algorithm/binarysearch/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/linkedlist/Josepfu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="114" column="8" lean-forward="true" selection-start-line="114" selection-start-column="8" selection-end-line="114" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/prim/PrimAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tanky/algorithm/prim/Prim.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/kruskal/KruskalCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="73" column="14" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tanky/algorithm/kruskal/Kruskal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1971">
+          <caret line="73" column="37" lean-forward="true" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1405#1406#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/greedy/GreedyAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108">
+          <caret line="70" column="23" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tanky/algorithm/divideandconquer/Divide.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tanky/algorithm/kmp/Kmp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tanky/algorithm/kmp/ViolenceMatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tanky/algorithm/greedy/Greedy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
