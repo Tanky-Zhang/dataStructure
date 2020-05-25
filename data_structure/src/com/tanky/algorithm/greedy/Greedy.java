@@ -100,7 +100,6 @@ public class Greedy {
 
         System.out.println(selects);
 
-
     }
 
 

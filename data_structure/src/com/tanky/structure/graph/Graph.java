@@ -41,10 +41,10 @@ public class Graph {
     public static void main(String[] args) {
 
         //创建图结构
-        vertex = new String[]{"A", "B", "C", "D", "E", "F","G"};
+        vertex = new String[]{"A", "B", "C", "D", "E", "F", "G"};
         isConnected = new boolean[vertex.length][vertex.length];
 
-        isVisited = new boolean[]{false, false, false, false, false, false,false};
+        isVisited = new boolean[]{false, false, false, false, false, false, false};
         createGraph("A", "B");
         createGraph("A", "C");
         createGraph("A", "E");
@@ -60,11 +60,13 @@ public class Graph {
                 }
             }
         }
-        //dfs();
+        // dfs();
         System.out.println("----------------------------------------------------");
         //bfs();
 
-        System.out.println(getShortPath("A", "G"));
+        dfs2();
+
+        //System.out.println(getShortPath("A", "G"));
 
 
     }
@@ -135,6 +137,75 @@ public class Graph {
 
     }
 
+
+    /**
+     * 深度优先搜索算法的第二种利递归的实现方式
+     */
+    public static void dfs2() {
+        for (int x = 0; x < vertex.length; x++) {
+            if (!isVisited[x]) {
+                dfs2(x);
+            }
+        }
+    }
+
+    public static void dfs2(int currentIndex) {
+
+
+        System.out.println(vertex[currentIndex]);
+
+        //将当前节点置为已经访问
+        isVisited[currentIndex] = true;
+
+
+        int w = getFirstIndeex(currentIndex);
+
+        while (w != -1) {
+
+            if (!isVisited[w]) {
+                dfs2(w);
+            }
+
+            w = getNextIndex(w, currentIndex);
+
+        }
+
+
+    }
+
+    private static int getNextIndex(int w, int v1) {
+
+        //开始回溯
+        for (int j = w + 1; j < vertex.length; j++) {
+
+            //找出第一个相连且未被访问的节点然后进行递归处理
+            if (isConnected[v1][j]) {
+
+                return j;
+            }
+
+        }
+
+        return -1;
+
+    }
+
+    public static int getFirstIndeex(int index) {
+
+        //获取当前节点的下一个节点
+        for (int i = 0; i < vertex.length; i++) {
+
+            //找出第一个相连且未被访问的节点然后进行递归处理
+            if (isConnected[currentIndex][i]) {
+
+                return i;
+            }
+
+        }
+
+        return -1;
+    }
+
     //***********************************************广度优先搜索算法实现******************************************************
 
     /**
@@ -180,7 +251,7 @@ public class Graph {
     private static int getShortPath(String args1, String args2) {
 
         //用以存放到每个节点的距离
-        int[] dist = new int[]{0, 0, 0, 0, 0, 0,0};
+        int[] dist = new int[]{0, 0, 0, 0, 0, 0, 0};
 
         int p = 0;
         for (int q = 0; q < vertex.length; q++) {

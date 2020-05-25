@@ -100,7 +100,8 @@ public class Graph {
 		isVisited[i] = true;
 		//查找结点i的第一个邻接结点w
 		int w = getFirstNeighbor(i);
-		while(w != -1) {//说明有
+		while(w != -1) {
+			//说明有
 			if(!isVisited[w]) {
 				dfs(isVisited, w);
 			}
