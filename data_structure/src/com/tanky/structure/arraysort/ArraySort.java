@@ -1,9 +1,6 @@
 package com.tanky.structure.arraysort;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Queue;
+import java.util.*;
 import java.util.concurrent.LinkedBlockingDeque;
 
 /**
@@ -17,6 +14,13 @@ public class ArraySort {
 
     public static void main(String[] args) {
 
+
+        int[] arr=new int[]{8,3,2,7,4,5,1};
+
+
+        heapSort(arr);
+
+        System.out.println(Arrays.toString(arr));
 
     }
 
@@ -55,20 +59,34 @@ public class ArraySort {
 
     /**
      * 堆排序代码实现
+     *
+     * 顺序存储的二叉树有这么几个特点(通常只考虑完全二叉树)：
+     *
+     * 第n个元素的左子节点为2*n+1
+     * 第n个元素的右子节点为2*n+2
+     * 第n个元素的父节点为(n-1)/2
+     *
      */
     public static void heapSort(int[] arr) {
 
-        //计算开始位置，从最后一层叶子节点的父节点开始遍历
+        //计算开始位置，从最后一层叶子节点的父节点开始遍历  因为是要索引所以-2
         int start = (arr.length - 2) / 2;
 
-        heapMax(arr, arr.length, start);
+        //第一次首先将其调整为大顶堆
+        for (int i=start;i<arr.length-1;i++){
+            heapMax(arr, arr.length, i);
+        }
 
-        for (int i = arr.length - 1; i >= 0; i++) {
+
+        for (int i = arr.length - 1; i >= 0; i--) {
 
             int temp = arr[i];
-            arr[i] = arr[0];
-            arr[0] = arr[temp];
 
+            arr[i] = arr[0];
+
+            arr[0] = temp;
+
+            //因为第一次操作以后已经构成了大顶堆，所以每次可以从0向后进行调整
             heapMax(arr, i, 0);
 
         }
@@ -77,6 +95,12 @@ public class ArraySort {
 
     /**
      * 找出大顶堆
+     *
+     * 顺序存储的二叉树有这么几个特点(通常只考虑完全二叉树)：
+     *
+     * 第n个元素的左子节点为2*n+1
+     * 第n个元素的右子节点为2*n+2
+     * 第n个元素的父节点为(n-1)/2
      */
     public static void heapMax(int[] arr, int size, int index) {
 
