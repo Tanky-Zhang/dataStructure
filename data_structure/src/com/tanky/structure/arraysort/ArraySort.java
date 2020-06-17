@@ -14,11 +14,12 @@ public class ArraySort {
 
     public static void main(String[] args) {
 
+        int[] arr = new int[]{8, 3, 2, 7, 4, 5, 1,1,1,1,1,12,2,2,22,};
 
-        int[] arr=new int[]{8,3,2,7,4,5,1};
-
-
-        heapSort(arr);
+        //heapSort(arr);
+        //countSort(arr);
+        // shellSort(arr);
+        quickSort(arr, 0, arr.length - 1);
 
         System.out.println(Arrays.toString(arr));
 
@@ -59,13 +60,12 @@ public class ArraySort {
 
     /**
      * 堆排序代码实现
-     *
+     * <p>
      * 顺序存储的二叉树有这么几个特点(通常只考虑完全二叉树)：
-     *
+     * <p>
      * 第n个元素的左子节点为2*n+1
      * 第n个元素的右子节点为2*n+2
      * 第n个元素的父节点为(n-1)/2
-     *
      */
     public static void heapSort(int[] arr) {
 
@@ -73,7 +73,7 @@ public class ArraySort {
         int start = (arr.length - 2) / 2;
 
         //第一次首先将其调整为大顶堆
-        for (int i=start;i<arr.length-1;i++){
+        for (int i = start; i < arr.length - 1; i++) {
             heapMax(arr, arr.length, i);
         }
 
@@ -95,9 +95,9 @@ public class ArraySort {
 
     /**
      * 找出大顶堆
-     *
+     * <p>
      * 顺序存储的二叉树有这么几个特点(通常只考虑完全二叉树)：
-     *
+     * <p>
      * 第n个元素的左子节点为2*n+1
      * 第n个元素的右子节点为2*n+2
      * 第n个元素的父节点为(n-1)/2
@@ -323,8 +323,12 @@ public class ArraySort {
      */
     public static void quickSort(int[] arr, int start, int end) {
 
+        if (start >= end) {
+            return;
+        }
+
         //以第零个元素作为基准数
-        int stander = arr[0];
+        int stander = arr[start];
 
         int low = start;
 
@@ -333,27 +337,33 @@ public class ArraySort {
         while (low < high) {
 
             //如果右边的数组比标准数据大此时不需要交换，只需要将坐标往前移
-            while (low < high && arr[low] <= arr[high]) {
+            while (low < high && stander <= arr[high]) {
 
                 high--;
             }
 
             //如果没有比标准数据大此时就可以用右边的数据替换左边的数据
-            arr[low] = high;
+            arr[low] = arr[high];
 
             //此时经过上边的操作坐标已经移到了数组的左边，所以可以从左边开始遍历了
-            while (low < high && arr[low] <= arr[high]) {
+            while (low < high && arr[low] <= stander) {
                 low++;
             }
             //但是如果左边的数据没有比右边的大，此时需要交换
             arr[high] = arr[low];
+
+        }
+
+
+        if (low == high) {
 
             //把标准数据赋值给低（高）所在的位置，需要注意的是此时高位和低位已经重合了
             arr[low] = stander;
 
             //左边的数据和右边的数据分别进行递归调用
             quickSort(arr, start, low);
-            quickSort(arr, low + 1, high);
+            //右边的数据进行递归调用
+            quickSort(arr, low + 1, end);
 
         }
 
@@ -537,8 +547,8 @@ public class ArraySort {
 
         //对原始数组倒序
         int[] sortArray = new int[arr.length];
-        for (int i = arr.length - 1; i >= 0; i--) {
-            sortArray[countArray[arr[i] - min] + 1] = arr[i];
+        for (int i = 0; i <= arr.length - 1; i++) {
+            sortArray[countArray[arr[i] - min] - 1] = arr[i];
             countArray[arr[i] - min]--;
         }
 
